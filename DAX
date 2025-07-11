@@ -1,0 +1,65 @@
+NEW_MODEL_FAQ = 
+"
+<div style='font-family: Arial, sans-serif; padding: 5px; max-width: 600px; margin: auto;'>
+  <h3 style='font-size: 28px; font-weight: bold; color: #3d6873;'>New Model FAQ with Main and Sub Parts</h3>
+  <p style='margin-bottom: 15px; font-size: 14px; color: #333;'>
+    New model of the FAQ specially designed for big projects that have a main part and subpart. This FAQ is user-friendly, copy-paste code built with HTML and CSS (JavaScript is not needed for Power BI). It is SEO optimised with &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags if used on a website. You can use this FAQ on your website without any plugin.
+  </p>
+
+  <details>
+    <summary style='font-weight: bold; color: #3d6873; cursor: pointer; margin-top: 10px;'>Can I build this FAQ in Power BI?</summary>
+    <div style='margin-top: 5px; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #3d6873;'>
+      <p>Yes! You can adapt this model in Power BI using only HTML and CSS. Use a DAX measure to output this code and display it in an HTML Viewer visual. The native &lt;details&gt; and &lt;summary&gt; elements create the accordion effect without JavaScript.</p>
+
+      <details style='margin-left: 20px;'>
+        <summary style='font-weight: bold; color: #3d6873; cursor: pointer;'>Why is this approach good for big projects?</summary>
+        <div style='margin-top: 5px; padding: 5px; background-color: #e9ecef; border-left: 2px solid #3d6873;'>
+          <p>Because it clearly separates main parts and subparts, your FAQs stay organised and easy to read. You can add as many questions and nested answers as you like, which is perfect for complex reports.</p>
+        </div>
+      </details>
+
+      <details style='margin-left: 20px;'>
+        <summary style='font-weight: bold; color: #3d6873; cursor: pointer;'>How does this help with SEO on a website?</summary>
+        <div style='margin-top: 5px; padding: 5px; background-color: #e9ecef; border-left: 2px solid #3d6873;'>
+          <p>On a website, the structure with proper &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags helps search engines index your FAQ content effectively. In Power BI, you don’t need the full HTML shell — just the core works perfectly in the HTML Viewer visual.</p>
+        </div>
+      </details>
+    </div>
+  </details>
+
+  <details>
+    <summary style='font-weight: bold; color: #3d6873; cursor: pointer; margin-top: 10px;'>How do I connect this to my data?</summary>
+    <div style='margin-top: 5px; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #3d6873;'>
+      <p>You can store your main questions and subparts in a Power BI table. Use DAX with CONCATENATEX to dynamically generate your FAQ HTML so it stays up to date.</p>
+
+      <details style='margin-left: 20px;'>
+        <summary style='font-weight: bold; color: #3d6873; cursor: pointer;'>Does this need any plugins?</summary>
+        <div style='margin-top: 5px; padding: 5px; background-color: #e9ecef; border-left: 2px solid #3d6873;'>
+          <p>No plugins are needed. In Power BI, you only need an HTML Viewer visual to render the content. On a website, the code works standalone too.</p>
+        </div>
+      </details>
+
+      <details style='margin-left: 20px;'>
+        <summary style='font-weight: bold; color: #3d6873; cursor: pointer;'>Is it easy to copy and reuse?</summary>
+        <div style='margin-top: 5px; padding: 5px; background-color: #e9ecef; border-left: 2px solid #3d6873;'>
+          <p>Yes — this model is designed to be reusable for any big project. Simply update the questions and answers as needed. The HTML structure remains the same.</p>
+        </div>
+      </details>
+    </div>
+  </details>
+
+  <details>
+    <summary style='font-weight: bold; color: #3d6873; cursor: pointer; margin-top: 10px;'>Where can I find an example?</summary>
+    <div style='margin-top: 5px; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #3d6873;'>
+      <p>Check ProPakistaniTools.com for a web example or build your own sample in Power BI Desktop. Test how your accordion looks in Desktop and Service to make sure it’s fully responsive.</p>
+
+      <details style='margin-left: 20px;'>
+        <summary style='font-weight: bold; color: #3d6873; cursor: pointer;'>Can I adjust the styling?</summary>
+        <div style='margin-top: 5px; padding: 5px; background-color: #e9ecef; border-left: 2px solid #3d6873;'>
+          <p>Absolutely — colours, borders, and spacing can be adjusted using inline CSS or your custom theme. This makes it easy to align with your project’s branding.</p>
+        </div>
+      </details>
+    </div>
+  </details>
+</div>
+"
